@@ -6,8 +6,10 @@ Ein webbasiertes Pizza-Bestellsystem, entwickelt im Rahmen des Moduls **Entwickl
 
 Pizza Service bildet einen vollständigen Bestellprozess für eine Pizzeria ab. Kunden können Pizzen bestellen, Bäcker bearbeiten die Bestellungen und Fahrer liefern diese aus.
 
-Das Projekt wird schrittweise entwickelt und regelmäßig erweitert. Weitere Funktionen, Datenbankanbindung, MVC-Architektur sowie dynamische Inhalte folgen in späteren Releases.
+Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände werden über Releases dokumentiert.
 
 ## Aktueller Stand
 
-🚧 Frühe Entwicklungsphase – HTML-Grundgerüst.
+🚧 HTML-Grundgerüst.
+
+Weitere Funktionen und Features folgen in zukünftigen Releases.
