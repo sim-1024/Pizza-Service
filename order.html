@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Pizza Service</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+<header>
+    <h1>Bestellung</h1>
+</header>
+<main>
+    <section>
+        <h2>Speisekarte</h2>
+        <article>
+            <img src="images/salami.png" width="150" height="150" alt="Pizza Salami" title="Pizza Salami">
+            <p>Pizza Salami<br>-8.49€-</p>
+        </article>
+        <article>
+            <img src="images/vegetarier.png" width="150" height="150" alt="Pizza Vegetarier" title="Pizza Vegetarier">
+            <p>Pizza Vegetarier<br>-12.49€-</p>
+        </article>
+        <article>
+            <img src="images/schinken.png" width="150" height="150" alt="Pizza Schinken" title="Pizza Schinken">
+            <p>Pizza Schinken<br>-11.99€-</p>
+        </article>
+    </section>
+
+    <form method="post" action="https://echo.hofmann-thomas.de">
+        <h2>Warenkorb</h2>
+        <textarea name="adresse" placeholder="Adresse eingeben" required></textarea>
+
+        <br><br>
+
+        <select id="warenkorb" name="warenkorb[]" multiple required>
+            <option value="salami">Salami</option>
+            <option value="schinken">Schinken</option>
+            <option value="vegetarier">Vegetarier</option>
+        </select>
+
+        <br>
+
+        <p>Gesamtpreis: 32.55 €</p>
+
+        <button type="button">Auswahl löschen</button>
+        <button type="reset">Alles löschen</button>
+        <button type="submit">Bestellen</button>
+    </form>
+
+</main>
+
+<footer>
+    <p>&copy; Pizza Service 2026</p>
+</footer>
+</body>
+
+</html>
