@@ -10,6 +10,6 @@ Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände w
 
 ## Aktueller Stand
 
-🚧 HTML-Grundgerüst.
+✅ v0.1.0 – HTML-Grundgerüst abgeschlossen
 
 Weitere Funktionen und Features folgen in zukünftigen Releases.
