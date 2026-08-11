@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="de">
-
-<head>
-    <meta charset="UTF-8" />
-    <title>Pizza Service</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
-</head>
-
-<body>
-<header>
-    <h1>Bestellung</h1>
-</header>
-
-<nav>
-    <a href="order.html">| Bestellung </a>
-    <a href="customer.html">| Kunde </a>
-    <a href="baker.html">| Bäcker </a>
-    <a href="driver.html">| Fahrer |</a>
-</nav>
+<?php
+$title = "Bestellung";
+require 'partials/head.php';
+require 'partials/header.php';
+?>
 
 <main>
     <section>
@@ -59,9 +44,4 @@
 
 </main>
 
-<footer>
-    <p>&copy; Pizza Service 2026</p>
-</footer>
-</body>
-
-</html>
+<?php require 'partials/footer.php'; ?>
