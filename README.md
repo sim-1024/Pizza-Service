@@ -12,4 +12,6 @@ Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände w
 
 ✅ v0.1.0 – HTML-Grundgerüst abgeschlossen
 
+✅ v0.2.0 – Statische PHP-Version
+
 Weitere Funktionen und Features folgen in zukünftigen Releases.
