@@ -10,7 +10,9 @@ Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände w
 
 ## Aktueller Stand
 
-🚧 v0.3.0 – MVC-Struktur in Bearbeitung
+🚧 v0.4.0 – Datenbankanbindung in Bearbeitung
+
+✅ v0.3.0 – MVC-Struktur
 
 ✅ v0.2.0 – Statische PHP-Version
 
