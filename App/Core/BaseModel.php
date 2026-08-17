@@ -10,8 +10,8 @@ abstract class BaseModel
         // This code switches from the the local installation (XAMPP) to the docker installation
         $host = gethostbyname('mariadb') !== 'mariadb' ? 'mariadb' : 'localhost';
 
-        $user = 'public';
-        $password = 'public';
+        $user = 'YOUR_DB_USER';
+        $password = 'YOUR_DB_PASSWORD';
         $database = 'pizzaservice';
 
         if ($database !== 'pizzaservice') {
