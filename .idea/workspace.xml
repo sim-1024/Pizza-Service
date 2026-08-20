@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="docs: update project status in README">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/database/SETUP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/database/physical-data-model.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/database/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/uml/uml-class-diagram.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitHub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/GitHub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controller/BakerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/BakerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controller/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/DriverController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controller/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Core/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Core/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/ArticleModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Model/ArticleModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/OrderingModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Model/OrderingModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/baker.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/baker.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/customer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/customer.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/driver.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/driver.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/order.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/order.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/View/partials/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/salami.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/salami.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/schinken.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schinken.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vegetarier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/vegetarier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sim-1024&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="3d870614-6c39-4069-87ae-fba25f869f6b" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sim-1024/Pizza-Service.git&quot;,
+    &quot;accountId&quot;: &quot;3d870614-6c39-4069-87ae-fba25f869f6b&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$USER_HOME$/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe/php.exe" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EuFggmIDKLc0IfmRs8KH3qrYVA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.order.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oussa/Desktop/D/FRANKFURT/HOCHSCHULE/S4/Entwicklung webbasierter Anwendungen/P/Pizza Service/images&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\assets" />
+      <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\App\View" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="order.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Pizza Service/order.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.order.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PS-261.27258.54" />
+        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.27258.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="" />
+      <created>1781020663323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781020663323</updated>
+      <workItem from="1781020664597" duration="20000" />
+      <workItem from="1781020770913" duration="8105000" />
+      <workItem from="1781538783558" duration="2631000" />
+      <workItem from="1784659220482" duration="124000" />
+      <workItem from="1784665387047" duration="18000" />
+      <workItem from="1784742040169" duration="14000" />
+      <workItem from="1784742195867" duration="7000" />
+      <workItem from="1786447745860" duration="588000" />
+      <workItem from="1786448483728" duration="1607000" />
+      <workItem from="1786450131047" duration="7800000" />
+      <workItem from="1786641702862" duration="5246000" />
+      <workItem from="1786647326395" duration="101000" />
+      <workItem from="1786789409754" duration="23738000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: create HTML structure">
+      <option name="closed" value="true" />
+      <created>1781032339286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781032339286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add MVC base classes and models">
+      <option name="closed" value="true" />
+      <created>1786883993335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786883993335</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add controllers and views">
+      <option name="closed" value="true" />
+      <created>1786966336444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786966336444</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add application routing, session handling, and customer order filtering">
+      <option name="closed" value="true" />
+      <created>1786982905141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786982905141</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: replace database credentials with placeholders">
+      <option name="closed" value="true" />
+      <created>1786984341864</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1786984341864</updated>
+    </task>
+    <task id="LOCAL-00006" summary="docs: update project status in README">
+      <option name="closed" value="true" />
+      <created>1786984366850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1786984366850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: create HTML structure" />
+    <MESSAGE value="feat: add MVC base classes and models" />
+    <MESSAGE value="feat: add controllers and views" />
+    <MESSAGE value="feat: add application routing, session handling, and customer order filtering" />
+    <MESSAGE value="fix: replace database credentials with placeholders" />
+    <MESSAGE value="docs: update project status in README" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update project status in README" />
+  </component>
+</project>
