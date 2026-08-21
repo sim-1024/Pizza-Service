@@ -4,9 +4,10 @@ session_start();
 require_once 'App/Core/Router.php';
 
 $router = new Router();
+$route = $router->getRoute();
 
 try {
-    switch ($router->getRoute()) {
+    switch ($route['base']) {
         case '':
         case 'order':
             require_once 'App/Controller/OrderController.php';
