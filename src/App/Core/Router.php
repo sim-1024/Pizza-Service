@@ -17,7 +17,7 @@ class Router
 
     public static function generateUrl(string $path = ''): string
     {
-        $base = rtrim(dirname((string)$_SERVER['SCRIPT_NAME']), '/');
+        $base = rtrim(str_replace('\\', '/', dirname((string)$_SERVER['SCRIPT_NAME'])), '/');
         $path = ltrim($path, '/');
         return $path === '' ? $base . '/' : $base . '/' . $path;
     }

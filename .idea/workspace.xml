@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="docs: update project status in README">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/hawaii.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/margherita.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/tonno.png" afterDir="false" />
+    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/View/partials/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/Router.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.order.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oussa/Desktop/D/FRANKFURT/HOCHSCHULE/S4/Entwicklung webbasierter Anwendungen/P/Pizza Service/images&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.order.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/oussa/Desktop/D/FRANKFURT/HOCHSCHULE/S4/Entwicklung webbasierter Anwendungen/P/Pizza Service/images",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\images" />
@@ -118,6 +115,7 @@
       <workItem from="1786641702862" duration="5246000" />
       <workItem from="1786647326395" duration="101000" />
       <workItem from="1786789409754" duration="23738000" />
+      <workItem from="1787349827075" duration="3228000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create HTML structure">
       <option name="closed" value="true" />
@@ -167,7 +165,31 @@
       <option name="project" value="LOCAL" />
       <updated>1786984366850</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix: update getRoute()">
+      <option name="closed" value="true" />
+      <created>1787345080733</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1787345080733</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor: update navigation">
+      <option name="closed" value="true" />
+      <created>1787345116239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1787345116239</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add more pizza pictures">
+      <option name="closed" value="true" />
+      <created>1787345143010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1787345143010</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +202,9 @@
     <MESSAGE value="feat: add application routing, session handling, and customer order filtering" />
     <MESSAGE value="fix: replace database credentials with placeholders" />
     <MESSAGE value="docs: update project status in README" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update project status in README" />
+    <MESSAGE value="fix: update getRoute()" />
+    <MESSAGE value="refactor: update navigation" />
+    <MESSAGE value="feat: add more pizza pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add more pizza pictures" />
   </component>
 </project>
