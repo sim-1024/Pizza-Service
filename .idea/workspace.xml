@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="docs: update project status in README">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/database/SETUP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/database/physical-data-model.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/database/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/uml/uml-class-diagram.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GitHub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/GitHub.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controller/BakerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/BakerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controller/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/DriverController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controller/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Core/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Core/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/BaseModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Model/ArticleModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Model/ArticleModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Model/OrderingModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Model/OrderingModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/baker.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/baker.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/customer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/customer.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/driver.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/driver.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/order.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/order.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/View/partials/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/salami.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/salami.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/schinken.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schinken.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/vegetarier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/vegetarier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/hawaii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/margherita.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/tonno.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/View/partials/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/partials/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
