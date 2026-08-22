@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="fix: handle Windows path separators in URL generation">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="feat: add database entries">
+      <change afterPath="$PROJECT_DIR$/docs/apache/SETUP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/DriverController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/View/driver.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/driver.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/database/SETUP.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/database/SETUP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/database/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +54,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.order.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/oussa/Desktop/D/FRANKFURT/HOCHSCHULE/S4/Entwicklung webbasierter Anwendungen/P/Pizza Service/images",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.order.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oussa/Desktop/D/FRANKFURT/HOCHSCHULE/S4/Entwicklung webbasierter Anwendungen/P/Pizza Service/images&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\docs\apache" />
+      <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\database" />
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\assets" />
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\App\View" />
     </key>
@@ -117,7 +120,8 @@
       <workItem from="1786641702862" duration="5246000" />
       <workItem from="1786647326395" duration="101000" />
       <workItem from="1786789409754" duration="23738000" />
-      <workItem from="1787349827075" duration="10347000" />
+      <workItem from="1787349827075" duration="10535000" />
+      <workItem from="1787438169487" duration="3859000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create HTML structure">
       <option name="closed" value="true" />
@@ -199,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787356094532</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix: correct order and ordering_id references">
+      <option name="closed" value="true" />
+      <created>1787415675541</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1787415675541</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add database entries">
+      <option name="closed" value="true" />
+      <created>1787442890870</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1787442890870</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +236,8 @@
     <MESSAGE value="refactor: update navigation" />
     <MESSAGE value="feat: add more pizza pictures" />
     <MESSAGE value="fix: handle Windows path separators in URL generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: handle Windows path separators in URL generation" />
+    <MESSAGE value="fix: correct order and ordering_id references" />
+    <MESSAGE value="feat: add database entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add database entries" />
   </component>
 </project>
