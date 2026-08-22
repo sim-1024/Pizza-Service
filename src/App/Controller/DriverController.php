@@ -10,7 +10,7 @@ class DriverController extends BaseController
         if ($_SERVER['REQUEST_METHOD'] !== 'POST'||
             !isset(
                 $_POST['operation'],
-                $_POST['ordered_article_id'],
+                $_POST['ordering_id'],
                 $_POST['new_status']
             )
         ) {

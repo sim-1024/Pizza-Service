@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="">
+    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="fix: handle Windows path separators in URL generation">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller/DriverController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/View/driver.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/View/driver.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +117,7 @@
       <workItem from="1786641702862" duration="5246000" />
       <workItem from="1786647326395" duration="101000" />
       <workItem from="1786789409754" duration="23738000" />
-      <workItem from="1787349827075" duration="3228000" />
+      <workItem from="1787349827075" duration="10347000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create HTML structure">
       <option name="closed" value="true" />
@@ -189,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787345143010</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: handle Windows path separators in URL generation">
+      <option name="closed" value="true" />
+      <created>1787356094532</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1787356094532</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +215,7 @@
     <MESSAGE value="fix: update getRoute()" />
     <MESSAGE value="refactor: update navigation" />
     <MESSAGE value="feat: add more pizza pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add more pizza pictures" />
+    <MESSAGE value="fix: handle Windows path separators in URL generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: handle Windows path separators in URL generation" />
   </component>
 </project>
