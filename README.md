@@ -10,7 +10,9 @@ Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände w
 
 ## Aktueller Stand
 
-🚧 v0.4.0 – Datenbankanbindung in Bearbeitung
+🚧 v0.5.0 – JavaScript & Fetch API Integration in Bearbeitung
+
+✅ v0.4.0 – Datenbankanbindung
 
 ✅ v0.3.0 – MVC-Struktur
 

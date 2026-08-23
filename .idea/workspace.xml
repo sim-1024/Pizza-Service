@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="feat: add database entries">
-      <change afterPath="$PROJECT_DIR$/docs/apache/SETUP.md" afterDir="false" />
+    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/database/SETUP.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/database/SETUP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/database/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <workItem from="1786647326395" duration="101000" />
       <workItem from="1786789409754" duration="23738000" />
       <workItem from="1787349827075" duration="10535000" />
-      <workItem from="1787438169487" duration="3859000" />
+      <workItem from="1787438169487" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create HTML structure">
       <option name="closed" value="true" />
@@ -219,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787442890870</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="docs: update database setup and add Apache setup">
+      <option name="closed" value="true" />
+      <created>1787443053772</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1787443053772</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +243,7 @@
     <MESSAGE value="fix: handle Windows path separators in URL generation" />
     <MESSAGE value="fix: correct order and ordering_id references" />
     <MESSAGE value="feat: add database entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add database entries" />
+    <MESSAGE value="docs: update database setup and add Apache setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update database setup and add Apache setup" />
   </component>
 </project>
