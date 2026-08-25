@@ -45,7 +45,7 @@ $statusMap = [
                                 type="radio"
                                 name="new_status"
                                 value="<?= $value ?>"
-                                <?= (int)$order['status'] === $value ? 'checked' : '' ?>
+                                <?= (int)$order['items'][0]['status'] === $value ? 'checked' : '' ?>
                                 <?= $value === 2 ? 'disabled' : '' ?>>
                             <?= $label ?>
                         </label><br>
