@@ -12,6 +12,8 @@ Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände w
 
 🚧 v0.5.0 – JavaScript & Fetch API Integration in Bearbeitung
 
+🐛 v0.4.1 – Bugfix
+
 ✅ v0.4.0 – Datenbankanbindung
 
 ✅ v0.3.0 – MVC-Struktur
