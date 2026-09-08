@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Api/ApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +121,14 @@
       <workItem from="1786789409754" duration="23738000" />
       <workItem from="1787349827075" duration="10535000" />
       <workItem from="1787438169487" duration="5513000" />
+      <workItem from="1787515695544" duration="915000" />
+      <workItem from="1787593251626" duration="5144000" />
+      <workItem from="1787661429167" duration="91000" />
+      <workItem from="1787673599304" duration="1591000" />
+      <workItem from="1787997359151" duration="975000" />
+      <workItem from="1788390278357" duration="1361000" />
+      <workItem from="1788515618496" duration="629000" />
+      <workItem from="1788867655389" duration="3949000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create HTML structure">
       <option name="closed" value="true" />
@@ -224,7 +234,31 @@
       <option name="project" value="LOCAL" />
       <updated>1787443053772</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="docs: update project status in README">
+      <option name="closed" value="true" />
+      <created>1787515885520</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1787515885521</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: use first order item status for checked state">
+      <option name="closed" value="true" />
+      <created>1787674521864</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1787674521864</updated>
+    </task>
+    <task id="LOCAL-00016" summary="docs: update project status in README">
+      <option name="closed" value="true" />
+      <created>1787997457783</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1787997457783</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +270,6 @@
     <MESSAGE value="feat: add controllers and views" />
     <MESSAGE value="feat: add application routing, session handling, and customer order filtering" />
     <MESSAGE value="fix: replace database credentials with placeholders" />
-    <MESSAGE value="docs: update project status in README" />
     <MESSAGE value="fix: update getRoute()" />
     <MESSAGE value="refactor: update navigation" />
     <MESSAGE value="feat: add more pizza pictures" />
@@ -244,6 +277,8 @@
     <MESSAGE value="fix: correct order and ordering_id references" />
     <MESSAGE value="feat: add database entries" />
     <MESSAGE value="docs: update database setup and add Apache setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update database setup and add Apache setup" />
+    <MESSAGE value="fix: use first order item status for checked state" />
+    <MESSAGE value="docs: update project status in README" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update project status in README" />
   </component>
 </project>

@@ -28,6 +28,11 @@ try {
             $controller = new DriverController();
             break;
 
+        case 'api':
+            require_once 'App/Api/ApiController.php';
+            $controller = new ApiController();
+            break;
+
         default:
             http_response_code(404);
             echo '<h1>404 - Page not found</h1>';
