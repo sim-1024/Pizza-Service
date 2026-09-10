@@ -42,14 +42,16 @@ $statusMap = [
                             type="radio"
                             name="new_status"
                             value="<?= $value ?>"
-                            <?= (int)$row['status'] === $value ? 'checked' : '' ?>>
+                            <?= (int)$row['status'] === $value ? 'checked' : '' ?>
+                            onchange="this.form.submit();"
+                        >
                         <?= $label ?>
                     </label><br>
                 <?php endforeach; ?>
 
-                <button type="submit">Bestätigen</button>
-                <br><br>
+                <br>
             </form>
+
             <hr>
         <?php endforeach; ?>
 

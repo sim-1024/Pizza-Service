@@ -46,12 +46,13 @@ $statusMap = [
                                 name="new_status"
                                 value="<?= $value ?>"
                                 <?= (int)$order['items'][0]['status'] === $value ? 'checked' : '' ?>
-                                <?= $value === 2 ? 'disabled' : '' ?>>
+                                <?= $value === 2 ? 'disabled' : '' ?>
+                                onchange="this.form.submit();"
+                            >
                             <?= $label ?>
                         </label><br>
                     <?php endforeach; ?>
 
-                    <button type="submit">Übernehmen</button>
                 </form>
             </article>
         <hr>
