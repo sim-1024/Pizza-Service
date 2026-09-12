@@ -30,8 +30,6 @@ class ApiController extends BaseController
             $ordering = $orderingModel->getOrderingById($id);
             if ($ordering) {
                 $data = $ordering;
-            } else {
-                http_response_code(404);
             }
         } else {
             http_response_code(404);
