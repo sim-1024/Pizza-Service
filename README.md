@@ -10,7 +10,9 @@ Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände w
 
 ## Aktueller Stand
 
-🚧 v0.5.0 – JavaScript & Fetch API Integration in Bearbeitung
+🚧 v0.6.0 – Styling & Responsive Design in Bearbeitung
+
+✅ v0.5.0 – JavaScript & Fetch API Integration
 
 🐛 v0.4.1 – Bugfix
 
