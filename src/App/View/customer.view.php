@@ -3,6 +3,7 @@ $title = "Kunde";
 $script = "assets/js/customer.js";
 require 'partials/head.php';
 require 'partials/header.php';
+require "partials/navigation.php";
 ?>
 
 <main>

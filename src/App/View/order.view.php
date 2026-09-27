@@ -3,6 +3,7 @@ $title = "Bestellung";
 $script = "assets/js/order.js";
 require 'partials/head.php';
 require 'partials/header.php';
+require "partials/navigation.php";
 ?>
 
 <main>

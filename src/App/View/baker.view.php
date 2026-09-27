@@ -2,6 +2,7 @@
 $title = "Bäcker";
 require 'partials/head.php';
 require 'partials/header.php';
+require "partials/navigation.php";
 
 $statusMap = [
     0 => 'Bestellt',

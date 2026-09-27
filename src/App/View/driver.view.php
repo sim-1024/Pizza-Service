@@ -2,6 +2,7 @@
 $title = "Fahrer";
 require 'partials/head.php';
 require 'partials/header.php';
+require "partials/navigation.php";
 
 $statusMap = [
     2 => 'Fertig',
