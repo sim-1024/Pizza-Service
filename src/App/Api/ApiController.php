@@ -31,8 +31,6 @@ class ApiController extends BaseController
             if ($ordering) {
                 $data = $ordering;
             }
-        } else {
-            http_response_code(404);
         }
 
         return $data;
