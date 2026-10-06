@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="refactor: move navigation outside header for sticky positioning">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/background.png" afterDir="false" />
+    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="docs: update project status in README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,7 @@
       <workItem from="1789333711688" duration="2043000" />
       <workItem from="1789817350339" duration="627000" />
       <workItem from="1790434749444" duration="3286000" />
-      <workItem from="1790498229042" duration="10810000" />
+      <workItem from="1790498229042" duration="12128000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create HTML structure">
       <option name="closed" value="true" />
@@ -355,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790502501167</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="style: add main stylesheet">
+      <option name="closed" value="true" />
+      <created>1790509280110</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1790509280110</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +393,7 @@
     <MESSAGE value="feat: add base stylesheet and responsive viewport" />
     <MESSAGE value="fix: return empty result instead of 404 when ordering_id is not set in session" />
     <MESSAGE value="refactor: move navigation outside header for sticky positioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: move navigation outside header for sticky positioning" />
+    <MESSAGE value="style: add main stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: add main stylesheet" />
   </component>
 </project>
