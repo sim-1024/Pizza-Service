@@ -1,24 +1,19 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
 /* Created on:     18.08.2026 10:00:12                          */
+/* Modified on:     24.10.2026 21:04:32                         */
 /*==============================================================*/
 
-alter table Ordered_Article
-   drop foreign key FK_OA_ARTICLE;
+drop table if exists article;
 
-alter table Ordered_Article 
-   drop foreign key FK_OA_ORDERING;
+drop table if exists ordered_article;
 
-drop table if exists Article;
-
-drop table if exists Ordered_Article;
-
-drop table if exists Ordering;
+drop table if exists ordering;
 
 /*==============================================================*/
-/* Table: Article                                               */
+/* Table: article                                               */
 /*==============================================================*/
-create table Article
+create table article
 (
    article_id           int not null auto_increment  comment '',
    name                 varchar(254) not null  comment '',
@@ -28,9 +23,9 @@ create table Article
 );
 
 /*==============================================================*/
-/* Table: Ordered_Article                                       */
+/* Table: ordered_article                                       */
 /*==============================================================*/
-create table Ordered_Article
+create table ordered_article
 (
    ordered_article_id   int not null auto_increment  comment '',
    ordering_id          int not null  comment '',
@@ -40,9 +35,9 @@ create table Ordered_Article
 );
 
 /*==============================================================*/
-/* Table: Ordering                                              */
+/* Table: ordering                                              */
 /*==============================================================*/
-create table Ordering
+create table ordering
 (
    ordering_id          int not null auto_increment  comment '',
    address              varchar(254) not null  comment '',
@@ -50,9 +45,9 @@ create table Ordering
    primary key (ordering_id)
 );
 
-alter table Ordered_Article add constraint FK_OA_ARTICLE foreign key (article_id)
-      references Article (article_id) on delete cascade on update cascade;
+alter table ordered_article add constraint FK_OA_ARTICLE foreign key (article_id)
+      references article (article_id) on delete cascade on update cascade;
 
-alter table Ordered_Article add constraint FK_OA_ORDERING foreign key (ordering_id)
-      references Ordering (ordering_id) on delete cascade on update cascade;
+alter table ordered_article add constraint FK_OA_ORDERING foreign key (ordering_id)
+      references ordering (ordering_id) on delete cascade on update cascade;
 
