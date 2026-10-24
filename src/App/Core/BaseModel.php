@@ -7,16 +7,13 @@ abstract class BaseModel
 
     public function __construct()
     {
-        // This code switches from the the local installation (XAMPP) to the docker installation
-        $host = gethostbyname('mariadb') !== 'mariadb' ? 'mariadb' : 'localhost';
-
-        $user = 'YOUR_DB_USER';
-        $password = 'YOUR_DB_PASSWORD';
-        $database = 'pizzaservice';
+        $host = "mariadb";
+        $user = getenv("DB_USER");
+        $password = getenv("DB_PASSWORD");
+        $database = getenv("DB_NAME");
 
         if ($database !== 'pizzaservice') {
-            echo '<h2>⚠️ Please set your database credentials in BaseModel.php before continuing.</h2>';
-            exit;
+            throw new RuntimeException('Database configuration is missing.');
         }
 
         $this->db = new MySQLi($host, $user, $password, $database);
