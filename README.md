@@ -10,6 +10,8 @@ Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände w
 
 ## Aktueller Stand
 
+🚧 v0.7.0 – Docker & Containerisierung in Bearbeitung
+
 ✅ v0.6.0 – Styling & Responsive Design
 
 ✅ v0.5.0 – JavaScript & Fetch API Integration
