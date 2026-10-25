@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="docs: update project status in README">
+    <list default="true" id="9780b191-0dbe-43cc-93f4-e5206e22dbcf" name="Changes" comment="docs: replace local setup guide with Docker instructions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -18,6 +18,7 @@
       <list>
         <option value="PHP File" />
         <option value="JavaScript File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -75,6 +76,7 @@
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\src\database" />
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\docs\apache" />
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\database" />
       <recent name="C:\Users\oussa\Desktop\D\FRANKFURT\HOCHSCHULE\S4\Entwicklung webbasierter Anwendungen\P\Pizza Service\assets" />
@@ -137,6 +139,10 @@
       <workItem from="1789817350339" duration="627000" />
       <workItem from="1790434749444" duration="3286000" />
       <workItem from="1790498229042" duration="12128000" />
+      <workItem from="1791306039743" duration="97000" />
+      <workItem from="1792596343802" duration="10665000" />
+      <workItem from="1792853044461" duration="13120000" />
+      <workItem from="1792951629562" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create HTML structure">
       <option name="closed" value="true" />
@@ -362,17 +368,61 @@
       <option name="project" value="LOCAL" />
       <updated>1790509280110</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="docs: update project status in README">
+      <option name="closed" value="true" />
+      <created>1791306107944</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1791306107944</updated>
+    </task>
+    <task id="LOCAL-00030" summary="docs: update project status in README">
+      <option name="closed" value="true" />
+      <created>1792866898453</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1792866898454</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: add Docker configuration">
+      <option name="closed" value="true" />
+      <created>1792869235523</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1792869235523</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: configure Docker database connection">
+      <option name="closed" value="true" />
+      <created>1792869611483</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1792869611483</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix: reorganize schema and entries files and fix case-sensitive table names">
+      <option name="closed" value="true" />
+      <created>1792870241536</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1792870241536</updated>
+    </task>
+    <task id="LOCAL-00034" summary="docs: replace local setup guide with Docker instructions">
+      <option name="closed" value="true" />
+      <created>1792951661078</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1792951661078</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: create HTML structure" />
-    <MESSAGE value="feat: add MVC base classes and models" />
-    <MESSAGE value="feat: add controllers and views" />
-    <MESSAGE value="feat: add application routing, session handling, and customer order filtering" />
     <MESSAGE value="fix: replace database credentials with placeholders" />
     <MESSAGE value="fix: update getRoute()" />
     <MESSAGE value="refactor: update navigation" />
@@ -389,11 +439,15 @@
     <MESSAGE value="feat: enable status updates via radio buttons for baker and driver" />
     <MESSAGE value="feat: add JavaScript for real-time order updates" />
     <MESSAGE value="fix: return empty response when no order exists" />
-    <MESSAGE value="docs: update project status in README" />
     <MESSAGE value="feat: add base stylesheet and responsive viewport" />
     <MESSAGE value="fix: return empty result instead of 404 when ordering_id is not set in session" />
     <MESSAGE value="refactor: move navigation outside header for sticky positioning" />
     <MESSAGE value="style: add main stylesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: add main stylesheet" />
+    <MESSAGE value="docs: update project status in README" />
+    <MESSAGE value="feat: add Docker configuration" />
+    <MESSAGE value="feat: configure Docker database connection" />
+    <MESSAGE value="fix: reorganize schema and entries files and fix case-sensitive table names" />
+    <MESSAGE value="docs: replace local setup guide with Docker instructions" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: replace local setup guide with Docker instructions" />
   </component>
 </project>

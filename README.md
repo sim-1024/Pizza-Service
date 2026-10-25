@@ -8,6 +8,10 @@ Pizza Service bildet einen vollständigen Bestellprozess für eine Pizzeria ab. 
 
 Das Projekt wird schrittweise entwickelt und die einzelnen Entwicklungsstände werden über Releases dokumentiert.
 
+## Installation
+
+Die Anleitung zur Einrichtung und Ausführung mit Docker ist in der [Docker Dokumentation](src/DOCKER_SETUP.md)
+
 ## Aktueller Stand
 
 🚧 v0.7.0 – Docker & Containerisierung in Bearbeitung
