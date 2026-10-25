@@ -14,7 +14,7 @@ Die Anleitung zur Einrichtung und Ausführung mit Docker ist in der [Docker Doku
 
 ## Aktueller Stand
 
-🚧 v0.7.0 – Docker & Containerisierung in Bearbeitung
+✅ v0.7.0 – Docker & Containerisierung
 
 ✅ v0.6.0 – Styling & Responsive Design
 
